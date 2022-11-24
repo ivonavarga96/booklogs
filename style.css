@@ -1,0 +1,131 @@
+body {
+	padding-top: 60px;
+	font-size: 10pt !important;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+	background-color: gray;
+	border-radius: 15px;
+	border: 0;
+}
+
+#mainDiv {
+	text-align: center;
+	align-items:center;
+}
+
+#searchDiv {
+	margin-top: -30px;
+}
+
+.bookcover {
+	height: 170px;
+	text-align: center;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 5px darkgray;
+}
+
+.bookcoverBox {
+	margin: 0 auto;
+	color: grey;
+	height:250px !important;
+    width:150px !important;
+	margin-bottom: 10px;
+}
+
+.bookcoverBoxforSearch {
+	color: grey;
+    height:300px !important;
+    width:150px !important;
+	display: block;
+	display: inline;
+    align-items:center;
+    justify-content:center;
+	text-align:center;
+	background-color:  #f0f0f5;
+	border-radius: 15px;
+	padding-top: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 5px lightgray;
+	position: relative;
+}
+
+#leftcol, #middlecol, #rightcol  {
+	background-color:  #f0f0f5;
+	border-radius: 30px;
+	padding-top: 10px;
+	width: 400px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 1px rgb(223, 223, 223);
+}
+
+#leftcol, #middlecol {
+	margin-right: 15px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(36, 36, 36);
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+nav {
+	border-bottom: 1px solid black;
+	box-shadow: 0px 3px 5px lightgray;
+	font-size: 10pt !important;
+	color: gray !important;
+}
+
+#profilepic {
+	display: block;
+	max-width:230px;
+	max-height:95px;
+	width: auto;
+	height: auto;
+}
+
+.deleteButton {
+	height: 25px;
+	width: 60px;
+	background-color: rgb(212, 115, 115);
+	border: 0;
+	border-radius: 30px;
+	color: white;
+}
+
+.editButton {
+	height: 25px;
+	width: 60px;
+	background-color: rgb(115, 212, 126);
+	border: 0;
+	border-radius: 30px;
+	color: white;
+	margin-right: 5px;
+}
+
+.editdelBtns {
+	position: absolute;
+	bottom: 3px;
+}
+
+#usernameForm {
+	visibility: collapse;
+	margin-top: 30px;
+	padding-top: 10px;
+	background-color: #f0f0f5;
+	width:100%;
+}
+
+li {
+	font-size: 10pt !important;
+	color: gray !important;
+}
